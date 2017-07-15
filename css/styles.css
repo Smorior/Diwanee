@@ -1,0 +1,672 @@
+body {
+    background: url(../img/background.png) no-repeat top center;
+}
+
+.wrap {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#logo h1 {
+    float: left;
+    display: block;
+    padding: -260px 0 0 23px;
+    text-indent: -2000px;
+    margin: 0;
+}
+
+#logo h1 a {
+    width: 157px;
+    height: 42px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 0 0 9px 0;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #222222;
+    font-weight: 400;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', bold;
+    font-size: 1.5em;
+    color: #222222;
+    font-weight: 300;
+}
+
+h4 {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #222222;
+    letter-spacing: 1.2px;
+}
+
+h5 {
+    display: block;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #222222;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+h6 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+}
+
+h7 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #5b5b5b;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+#navigationBarMobile {
+    display: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: #262626;
+    width: 95%;
+    margin-top: -260px;
+    height: 515px;
+    opacity: .98;
+}
+
+#navigationBarMobile a {
+    color: #8d8d8d;
+    text-decoration: none;
+}
+
+#navigationBarMobile ul {
+    list-style: none;
+    /*! margin-right: auto; */
+    margin-left: -43px;
+    margin-top: 130px;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#navigationBarMobile li {
+    display: block;
+    padding: 0px 50px 30px 50px;
+}
+
+.socialNetMobileTop {
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 1em;
+}
+
+.socialNetMobileTop a {
+    font-size: 0.6em;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+#navigation {
+    float: right;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation a {
+    color: #222222;
+    text-decoration: none;
+}
+
+#navigation ul {
+    list-style: none;
+    margin-right: 155px;
+    margin-top: 45px;
+    float: right;
+    display: block;
+}
+
+#navigation li {
+    float: left;
+    display: block;
+    padding: 0px 22px 0px 22px;
+}
+
+#navigation li a:hover {
+    color: red;
+}
+
+#navigationMobile {
+    display: none;
+}
+
+#navigationMobileOpen {
+    display: block;
+    width: 95%;
+    background-color: #262626;
+    opacity: 0.95;
+    height: 519px;
+    position: absolute;
+    margin-top: -264px;
+}
+
+.headTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 5em;
+    text-align: center;
+    color: #222222;
+    padding-top: 230px;
+}
+
+.dash {
+    display: block;
+    text-align: center;
+}
+
+.dashGray {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#headText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 545px;
+    margin: 35px auto 0px auto;
+}
+
+#headTextMobile {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    padding-top: 60px;
+}
+
+.services {
+    margin-top: 220px;
+    height: 480px;
+    background-color: #fbfbfb
+}
+
+.column1 {
+    width: 480px;
+    height: 480px;
+    float: left;
+    display: block;
+}
+
+.column2 {
+    width: 480px;
+    height: 480px;
+    float: left;
+    display: block;
+    background-color: #ededed;
+    /*! margin-left: 480px; */
+}
+
+.column3 {
+    width: 480px;
+    height: 480px;
+    float: right;
+    display: block;
+    /*! margin-left: 960px; */
+}
+
+.shapes img {
+    height: 85px;
+    padding: 95px 192px 0px 185px;
+}
+
+.servicesHead {
+    display: block;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #222222;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.servicesBody {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #222222;
+    font-size: 0.97em;
+    width: 366px;
+    margin: auto;
+    padding-top: 40px;
+    line-height: 1.7;
+}
+
+.jobs {
+    width: 837px;
+    margin: 0 auto;
+}
+
+.jobsHeader {
+    padding-top: 118px;
+}
+
+.subtitle {
+    display: block;
+    width: 690px;
+    margin: 51px auto 127px auto;
+}
+
+.dashJobs {
+    display: block;
+    text-align: center;
+    margin-top: -22px;
+}
+
+.jobPosition {
+    width: 836px;
+    display: block;
+    margin-bottom: 42px;
+    position: relative;
+    height: 190px;
+}
+
+.jobContainer {
+    width: 836px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.jobPositionTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #222222;
+    font-size: 1.2em;
+    margin-bottom: 27px;
+}
+
+.jobPositionText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #222222;
+    font-size: 1em;
+    margin-bottom: 37px;
+    width: 450px;
+    line-height: 1.5em;
+}
+
+.jobBackgroundMobile {
+    display: none;
+    background-color: #f8f7f5;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    margin-top: -37px;
+}
+
+.languages {
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.languagesMobile {
+    display: none;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #c83347;
+}
+
+.languages span {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    padding: 11px 24px;
+    color: #c83347;
+    margin-right: 7px;
+}
+
+.languages spann {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    padding: 11px 24px;
+    color: #f2f2f2;
+    margin-right: 7px;
+}
+
+.apply {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222222;
+    float: right;
+    margin: -100px auto;
+    padding: 15px 39px;
+}
+
+.n {
+    color: #f2f2f2;
+    border-color: #f2f2f2;
+}
+
+.negative {
+    background-color: #222222;
+    width: 1440px;
+    height: 260px;
+    z-index: -2;
+    margin-bottom: 65px;
+}
+
+.more {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 100px auto 0px auto;
+    padding: 20px 23px;
+    background-color: #eeeeee;
+    display: block;
+    text-align: center;
+    width: 20%;
+    color: #333333;
+}
+
+.about {
+    margin: 137px auto 0 auto;
+    background-color: #fbfbfb;
+    width: 1440px;
+    height: 621px;
+}
+
+.about p {
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 837px;
+    margin: 0 auto;
+}
+
+.social {
+    margin: 104px auto 107px auto;
+}
+
+.icon {
+    margin: auto;
+    text-align: center;
+}
+
+.darkGrey {
+    background-color: #222222;
+    height: 377px;
+    position: relative;
+}
+
+.contact {
+    width: 205px;
+    float: left;
+    display: block;
+    padding: 80px 65px 0px 65px;
+}
+
+.city {
+    float: left;
+    display: block;
+}
+
+.city span {
+    display: inline-block;
+}
+
+.adress {
+    margin: -20px 0px 0px 0px;
+    float: left;
+}
+
+.contactContainer {
+    display: block;
+    width: 70%;
+    height: 250px;
+    margin: 0px auto 0px auto;
+}
+
+.footer {
+    height: 71px;
+    background-color: #1e1e1e;
+    width: 97%;
+    position: absolute;
+    bottom: 0;
+    left: 23px;
+    right: 23px;
+}
+
+.copyright {
+    display: block;
+    margin: 0 auto;
+    float: left;
+    padding: 25px 300px 0px 260px;
+}
+
+.copyrightMobile {
+    display: none;
+    margin: 0 auto;
+    float: left;
+    padding-left: 30px;
+}
+
+.socialNet {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 300px 0px 260px;
+    position: absolute;
+    right: 0;
+    font-size: 1.5em;
+    top: -4px;
+}
+
+.socialNetMobile {
+    display: none;
+    margin: 0 auto;
+    right: 0;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    font-size: 2em;
+}
+
+.socialNet a {
+    font-size: 0.7em;
+}
+
+.socialNetMobile a {
+    font-size: 0.5em;
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+@media (max-width: 400px) {
+    .wrap {
+        width: 100%;
+    }
+    body {
+        background: url(../img/backgroundMobile.png) no-repeat top center;
+    }
+    .headTitle {
+        font-size: 4em;
+        padding-top: 180px;
+    }
+    #logo h1 a {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #navigation {
+        display: none;
+    }
+    #navigationMobile {
+        display: block;
+        float: right;
+        padding: 12px;
+        font-size: 2em;
+    }
+    #headText {
+        display: none;
+    }
+    #headTextMobile {
+        display: block;
+    }
+    #headDash {
+        display: none;
+    }
+    .services {
+        margin-top: 171px;
+        height: 1450px;
+    }
+    .column1 {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .shapes img {
+        padding: 55px 0 0 105px;
+    }
+    .servicesBody {
+        width: 100%;
+    }
+    .jobs {
+        width: 100%;
+    }
+    .subtitle {
+        width: 100%;
+    }
+    .jobPosition {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    .jobPositionText {
+        width: 100%;
+    }
+    .apply {
+        display: none;
+    }
+    .languages span {
+        border-style: none;
+        padding: 0px;
+    }
+    .languages {
+        display: none;
+    }
+    .languagesMobile {
+        display: block;
+    }
+    .negative {
+        width: 100%;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+    .n {
+        color: #222222;
+    }
+    .jobContainer {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .jobBackgroundMobile {
+        display: block;
+    }
+    .more {
+        width: 60%;
+        margin-bottom: -50px;
+        background-color: #d7d7d7;
+    }
+    .about {
+        width: 100%;
+        height: 900px;
+    }
+    .container {
+        width: 90%;
+    }
+    #bottom {
+        padding-top: 40px;
+    }
+    .social {
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+    .socialNet {
+        display: none;
+    }
+    .socialNetMobile {
+        display: block;
+    }
+    .contact {
+        padding: 0px;
+    }
+    .contactContainer {
+        width: 80%;
+    }
+    .darkGrey {
+        height: 600px;
+    }
+    .footer {
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 50px;
+    }
+    .copyright {
+        display: none;
+    }
+    .copyrightMobile {
+        display: block;
+        padding-top: 10px;
+    }
+}
